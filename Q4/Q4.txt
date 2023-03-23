@@ -1,0 +1,15 @@
+Simple RSA
+
+Hint : Use FactorDB, cannot manually figure out the primes p and q.
+
+gcd(e,phi)=1 ?? why --> if gcd of e and phi doesn't equal 1 then it become impossible to uniquely 
+decrypt the gcd 
+
+The message is a palindromic number starts and ends with 9. Use solve script !!
+
+# Type of attack - factorization attack 
+# Message (Integer number) - 91111977911119
+# p=3504283903
+# q=5557138357
+# d=5727585435916925033
+# phi=19473790482117545112 --> What is phi called ?? -->  ans - Euler totient function 
